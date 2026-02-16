@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"app/super-admin/page.tsx -> @/lib/dummy-super-admin-data\":{\"id\":\"app/super-admin/page.tsx -> @/lib/dummy-super-admin-data\",\"files\":[\"static/chunks/_app-pages-browser_src_lib_dummy-super-admin-data_ts.js\"]}}"

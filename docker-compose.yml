@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:16
+    container_name: flower_vendor_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: flower_vendor
+      POSTGRES_USER: flower
+      POSTGRES_PASSWORD: flower
+    ports:
+      - "5432:5432"
+    volumes:
+      - flower_vendor_pgdata:/var/lib/postgresql/data
+
+volumes:
+  flower_vendor_pgdata:
+
+
+
+
